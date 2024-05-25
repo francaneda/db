@@ -1,0 +1,79 @@
+[{
+  "id": 1,
+  "kind": "window-mode",
+  "description": "We undergo a period with a great volume of load tests against our pro-test environment. So we delay the deployments to not interrupt these kind of tests.",
+  "filter": 
+  {
+    "env": [
+      "test"
+    ],
+    "slot": [
+      "*"
+    ],
+    "tenant": [
+      "za"
+    ],
+    "platform": [
+      "meccanointerxion2",
+      "meccanotelecity2",
+      "meccanopciinterxion",
+      "meccanopcitelecity"
+    ],
+    "supra_env": [
+      "pro"
+    ]
+  },
+  "enabled": true
+},{
+  "id": 2,
+  "kind": "window-mode",
+  "description": "We undergo a period with a great volume of load tests against our pro-test environment. So we delay the deployments to not interrupt these kind of tests.",
+  "filter": 
+  {
+    "env": [
+      "test"
+    ],
+    "slot": [
+      "*"
+    ],
+    "tenant": [
+      "sa"
+    ],
+    "platform": [
+      "meccanointerxion2",
+      "meccanotelecity2",
+      "meccanopciinterxion",
+      "meccanopcitelecity"
+    ],
+    "supra_env": [
+      "pro"
+    ]
+  },
+  "enabled": true
+},{
+  "id": 3,
+  "kind": "window-mode",
+  "description": "We undergo a period with a great volume of load tests against our pro-test environment. So we delay the deployments to not interrupt these kind of tests.",
+  "filter": 
+  {
+    "env": [
+      "test"
+    ],
+    "slot": [
+      "*"
+    ],
+    "tenant": [
+      "sb"
+    ],
+    "platform": [
+      "meccanointerxion2",
+      "meccanotelecity2",
+      "meccanopciinterxion",
+      "meccanopcitelecity"
+    ],
+    "supra_env": [
+      "pro"
+    ]
+  },
+  "enabled": true
+}]
